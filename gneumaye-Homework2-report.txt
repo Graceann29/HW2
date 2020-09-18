@@ -45,4 +45,4 @@ a) var x is declared as a global variable, but var x within funtion f is fuction
 b) from what I gather from the code, javaScript does not require declare before use, as var x within the function f is declared after its use.
 
 Question 8
-...to be continued
+...to be continued   
