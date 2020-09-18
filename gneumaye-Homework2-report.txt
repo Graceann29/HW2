@@ -1,0 +1,48 @@
+Homework 2 
+Grace Neumayer
+
+Question 1
+a) "unknown" is a local variable, therefore it will not be bound until the function is run. 
+    once the function is run then it is within its scope and it will be defined.
+    but this particular variable isnt ever declared so it wont run properly.
+b) "loc" is declared within the function so it is local to that function therfore it only exsists within that function.
+
+Question 2
+Test1 is in the scope, test2 is in a hole in the scope, so when glob is printed it will have main and test1 stored,
+but test2 had a local redefinition of glob which will not remain after test2 is complete.
+
+Question 3
+a) x = hello
+b) I do not know how to answer this, I have never used Java before...
+
+Question 4
+a) function scope is when a variable declared within a function is only visible in that function and not outside of it.
+   var is often a function scope variable type.
+b) block scope is when a variable is declared within something like an if, switch, conditions or a for, while loop
+   then it is visible only within that statement, but not outside the curly brackets.
+c) Initially I got an error for i, but once i declared it my output was x = hello. 
+   This is because var x is a function scope which means that it will hold the change made within the for loop.
+   
+Question 5
+a) I would expect the output to be: 
+   x=hello
+   i=10
+   and the last print would be an error because i is not defined outside of the function.
+b) the output was as I expected. x is hello because var x is fuction scope,
+   i is 10 from the count and it is also function scope, 
+   and the last error is because the i is out of scope so it is not defined.
+   
+Question 6
+a) x = 10
+c) var is generally a function scope variable whiile let is generally a block scope variable.
+   var will be defined within its function, and let will be defined within its curly brackets (if, switch, for, while).
+   
+Question 7
+last line outputs hello
+a) var x is declared as a global variable, but var x within funtion f is fuction scope and so
+   the redefined value is held only within the funtion
+   and outside the function it defaults back to the global definition.
+b) from what I gather from the code, javaScript does not require declare before use, as var x within the function f is declared after its use.
+
+Question 8
+...to be continued
